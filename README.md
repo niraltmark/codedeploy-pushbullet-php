@@ -40,3 +40,8 @@ hooks:
       timeout: 300
       runas: root
 ```
+
+## Notification examples
+![](http://github.com/niraltmark/codedeploy-pushbullet-php/blob/master/images/pushbullet-deployment-started-notification.jpg?raw=true)
+
+![](http://github.com/niraltmark/codedeploy-pushbullet-php/blob/master/images/pushbullet-deployment-finished-notification.jpg?raw=true)
