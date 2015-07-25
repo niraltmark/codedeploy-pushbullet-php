@@ -16,7 +16,9 @@ Usually it is GUID directory and usually there is only one, for example /opt/cod
 
 ## Install
 Clone the repository and alter the below files accordingly:
+
 1. scripts/before_install replace your Deployment Group Id with [DEPLOYMENT_GROUP_ID]
+
 2. scripts/codedeploy-pushnotification/deployment-start.php and deployment-finish.php replace your Pushbullet token with [TOKEN] 
 
 Copy scripts folder to your root project or merge with yours script folder.
