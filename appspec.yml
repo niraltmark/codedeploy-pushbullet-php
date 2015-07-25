@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: /scripts/codedeploy-pushnotification
+    destination: /tmp/codedeploy-pushnotification
+hooks:
+  BeforeInstall:
+    - location: scripts/before_install
+      timeout: 300
+      runas: root
+  ValidateService:
+    - location: scripts/validate_service
+      timeout: 300
+      runas: root

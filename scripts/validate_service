@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# CodeDeplpy Notification
+# =======================
+cd /tmp/codedeploy-pushnotification
+sudo composer update
+sudo php deployment-finish.php
